@@ -1,0 +1,31 @@
+.titulo-parrafos{
+    font-family: "Merryweather";
+    color: white;
+}
+
+.texto-parrafos{
+    font-family: "Raleway";
+    color: white;
+    font-weight: 300;
+}
+
+.separador{
+    color: gray;
+    width: 70%;
+    opacity: 70%;
+}
+
+.banner{
+    background-color: aqua;
+    text-align: center;
+    font-size: 25px;
+}
+
+#first_section{
+    background-color: black;
+    : 100%;
+}
+
+body{
+    background-color: black;
+}
