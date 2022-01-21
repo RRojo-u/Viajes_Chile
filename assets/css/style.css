@@ -9,23 +9,57 @@
     font-weight: 300;
 }
 
+.texto-formulario{
+    font-family: "Raleway";
+    color: white;
+}
+
 .separador{
     color: gray;
-    width: 70%;
+    width: 80%;
     opacity: 70%;
 }
 
+.separador2{
+    color: gray;
+    opacity: 70%;
+    
+}
+
 .banner{
-    background-color: aqua;
+    background-color: #0dc9ef;
     text-align: center;
     font-size: 25px;
 }
 
 #first_section{
     background-color: black;
-    : 100%;
+
 }
 
 body{
     background-color: black;
+}
+
+.card-title{
+    font-family: "Raleway";
+    color: white;
+    font-weight: 400;
+}
+
+.card-text{
+    font-family: "Raleway";
+    color: white;
+    font-weight: 300;
+}
+
+.nav-link{
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-brand{
+    font-family: "Merryweather";
+    color: white;
+
 }

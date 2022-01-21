@@ -26,10 +26,10 @@
     <meta name="description" content="#">
     <meta name="keywords" content="#">
 </head>
-
+<!--smooth scroll, desaparecer parrafos en sm....-->
 <body>
 
-<!--Nav fija + logo + smooth scroll + carousel-->
+<!--Nav + smooth scroll-->
 <nav class="navbar p-0 navbar-dark">
     <div class="container fixed-top">
       <a class="navbar-brand" href="#">
@@ -83,12 +83,13 @@
           </button>
         </div>
       </nav>
-<!--quienes somos row 3 parrafos + favicons + desaparecer en tamaño pequeño-->
+
+<!--quienes somos + desaparecer en tamaño pequeño-->
 
 <section id="first_section" class="container col-12 mx-auto">
   <h3 class="titulo-parrafos text-center pt-5 pb-3">¿QUIÉNES SOMOS?</h3>
   <hr class="separador container">
- <div class="row container">
+ <div class="row container pb-2">
   <div class="col-lg-4 d-sm-block texto-parrafos mx-auto">
     <div class="banner"> 
       <i class="fas fa-plane"></i>
@@ -129,11 +130,109 @@
     </div>
   </div>
  </div>
-
-
-
-
 </section>
+
+<section id="second_section" class="container col-12 mx-auto">
+  <h3 class="titulo-parrafos text-center pt-5 pb-4">DESTACADOS</h3>
+<hr class="separador2 container-fluid">
+
+<!--Cards 1-->
+
+<section class="row container">
+  <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+   <div class="card mx-2" style="width: 18rem;">
+     <img src="assets/img/card1.jpg" class="card-img-top" alt="" height="150px"/>
+       <div class="card-body bg-info">
+         <h5 class="card-title fw-light mb-2 py-0">Lorem ipsum dolor sit amet. </h5>
+           <p class="card-text h6 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed corrupti cumque ab libero ullam, nesciunt perferendis adipisci quas?</p>
+           </div>
+         </div>
+        </div>
+
+<!--2-->
+
+<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+ <div class="card mx-2" style="width: 18rem;">
+  <img src="assets/img/card2.jpg" class="card-img-top" alt="" height="150px"/>
+   <div class="card-body bg-info">
+    <h5 class="card-title fw-light mb-2 py-0">Lorem ipsum dolor sit amet. </h5>
+      <p class="card-text h6 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed corrupti cumque ab libero ullam, nesciunt perferendis adipisci quas?</p>
+  </div>
+  </div>
+</div>
+
+<!--3-->      
+
+<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+ <div class="card mx-2" style="width: 18rem;">
+  <img src="assets/img/card3.jpg" class="card-img-top" alt="" height="150px"/>
+   <div class="card-body bg-info">
+    <h5 class="card-title fw-light mb-2 py-0">Lorem ipsum dolor sit amet. </h5>
+      <p class="card-text h6 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed corrupti cumque ab libero ullam, nesciunt perferendis adipisci quas?</p>
+  </div>
+ </div>
+</div>
+
+<!--4-->
+
+<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+  <div class="card mx-2" style="width: 18rem;">
+    <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosque" height="150px"/>
+     <div class="card-body bg-info">
+      <h5 class="card-title fw-light mb-2 py-0">Lorem ipsum dolor sit amet. </h5>
+        <p class="card-text h6 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed corrupti cumque ab libero ullam, nesciunt perferendis adipisci quas?</p>
+    </div>
+  </div>
+  </div>
+ </section>
+</section>
+
+<section id="Third_section" class="container col-12 mx-auto">
+  <h3 class="titulo-parrafos text-center pt-5 pb-4">CONTACTO</h3>
+<hr class="separador2 container-fluid">
+<form class="texto-formulario pb-5">
+  <div class="mb-3">
+    <label for="exampleInputName1" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputAsunto1" class="form-label">Asunto</label>
+    <input type="text" class="form-control" id="exampleInputAsunto1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputMensaje1" class="form-label">Mensaje</label>
+    <input type="text" class="form-control" id="exampleInputMensaje1" style="height: 200px;">
+  </div>
+  <button type="submit" class="btn btn-info text-white">Enviar</button>
+</form>
+</section>
+
+<footer class="container-fluid bg-info">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container px-5">
+      <a class="navbar-brand" href="#">VIAJES CHILE</a>
+      <div class="collapse navbar-collapse d-flex justify-content-end redes-sociales" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"><i class="fab fa-github-square"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fab fa-twitter-square"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fab fa-facebook-square"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+</footer>
 
 
     
