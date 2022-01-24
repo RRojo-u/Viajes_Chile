@@ -26,17 +26,18 @@
     <meta name="description" content="#">
     <meta name="keywords" content="#">
 </head>
-<!--smooth scroll, desaparecer parrafos en sm....-->
+
 <body>
 
-<!--Nav + smooth scroll-->
-<nav class="navbar p-0 navbar-dark">
-    <div class="container fixed-top">
-      <a class="navbar-brand" href="#">
+<!--Nav-->
+<nav id="inicio" class="navbar p-0 navbar-dark">
+   <div class="container fixed-top">
+      <a class="navbar-brand" href="#inicio">
         <img src="assets/img/viajes.svg" alt="" width="30" height="33" class="d-inline-block align-text-top">
-        Viajes Chile
+        Viajes Chile 
+      </a>
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class ="navbar navbar-expand-lg navbar-dark">
          <div class="container-fluid">
               <a class="navbar-link" href="#"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,22 +46,23 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Inicio</a>
+                    <a class="nav-link" href="#inicio">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes Somos</a>
+                    <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
+                    <a class="nav-link" href="#destacados">Destacados</a>
                   </li>
                   <li class="nav-item"> 
-                    <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="¡Nuestros Datos!" href="#">Contacto</a>
+                    <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="¡Nuestros Datos!" href="#contacto">Contacto</a>
                   </li>
                 </ul>
-              </div>
-            </div>
-         </div>
-<!--carousel-->
+          </nav>
+        </div>
+      </div>
+    </div>
+<!--Carousel-->
          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -84,13 +86,14 @@
         </div>
       </nav>
 
-<!--quienes somos + desaparecer en tamaño pequeño-->
+<!--Quienes Somos-->
 
-<section id="first_section" class="container col-12 mx-auto">
+<section id="quienesSomos" class="container col-12 mx-auto d-none d-md-block">
+  <div>
   <h3 class="titulo-parrafos text-center pt-5 pb-3">¿QUIÉNES SOMOS?</h3>
   <hr class="separador container">
  <div class="row container pb-2">
-  <div class="col-lg-4 d-sm-block texto-parrafos mx-auto">
+  <div class="col-lg-4 texto-parrafos mx-auto">
     <div class="banner"> 
       <i class="fas fa-plane"></i>
     </div>
@@ -103,45 +106,41 @@
       </p>
     </div>
   </div>
-    <div class="col-lg-4 d-sm-block texto-parrafos mx-auto">
+    <div class="col-lg-4 texto-parrafos mx-auto">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint laboriosam consequatur porro, saepe obcaecati, maiores commodi atque officia laudantium, 
         quos vero repudiandae excepturi quo accusamus inventore neque. Delectus possimus ducimus praesentium inventore consequuntur, voluptatem, 
-        voluptate optio incidunt esse ratione facere, totam facilis excepturi quaerat? Similique tenetur deleniti voluptas magnam odio nam quos laborum 
-        expedita rem facere, eligendi ex praesentium sed atque eos libero! Dolores sapiente vero maxime! Laudantium fugit consequatur, 
+        voluptate optio incidunt. Dolores sapiente vero maxime! Laudantium fugit consequatur, 
         at odio nostrum perferendis dicta ad officia soluta nulla? Minima, praesentium sapiente. Qui repellendus odit fugit laborum iure reprehenderit soluta?
       </p>
       <div class="banner">
         <i class="fas fa-mountain"></i>
       </div>
     </div>
-      <div class="col-lg-4 d-sm-block texto-parrafos mx-auto">
+      <div class="col-lg-4 texto-parrafos mx-auto">
         <div class="banner">
           <i class="fas fa-route"></i>
         </div>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quisquam porro repudiandae voluptates, 
-          ut maiores dolor debitis molestiae ipsa tempora quasi hic eum delectus, mollitia labore consequatur aspernatur voluptatum, 
-          fuga ipsam nostrum sunt. Adipisci molestiae ullam molestias voluptate, ratione officiis officia repellat, dolorem debitis obcaecati vero rerum magnam! 
-          Doloremque laborum, beatae perferendis harum aperiam minus architecto. Soluta incidunt iusto, sit tempora provident fuga molestiae eligendi quidem reprehenderit harum, 
+          ut maiores dolor debitis consequatur aspernatur voluptatum, fuga ipsam nostrum sunt. Ratione officiis officia repellat, dolorem debitis obcaecati vero rerum magnam! 
+          Doloremque laborum, beatae perferendis. Soluta incidunt iusto, sit tempora provident fuga molestiae eligendi quidem reprehenderit harum, 
           optio laudantium eius! Eligendi magni natus ipsa rerum illum. Reprehenderit saepe deserunt ipsam vel deleniti impedit commodi corporis pariatur alias aut? Nesciunt?
         </p>
       </div>
      </div>
     </div>
-  </div>
- </div>
 </section>
 
-<section id="second_section" class="container col-12 mx-auto">
+
+<!--Tarjetas Destacados 1-->
+
+<section id="destacados" class="container col-12 mx-auto">
   <h3 class="titulo-parrafos text-center pt-5 pb-4">DESTACADOS</h3>
 <hr class="separador2 container-fluid">
-
-<!--Cards 1-->
-
-<section class="row container">
-  <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+<div class="row">
+  <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex justify-content-center py-2">
    <div class="card mx-2" style="width: 18rem;">
-     <img src="assets/img/card1.jpg" class="card-img-top" alt="" height="150px"/>
+     <img src="assets/img/card1.jpg" class="card-img-top" alt="" height="150"/>
        <div class="card-body bg-info">
          <h5 class="card-title fw-light mb-2 py-0">Lorem ipsum dolor sit amet. </h5>
            <p class="card-text h6 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed corrupti cumque ab libero ullam, nesciunt perferendis adipisci quas?</p>
@@ -151,9 +150,9 @@
 
 <!--2-->
 
-<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex justify-content-center py-2">
  <div class="card mx-2" style="width: 18rem;">
-  <img src="assets/img/card2.jpg" class="card-img-top" alt="" height="150px"/>
+  <img src="assets/img/card2.jpg" class="card-img-top" alt="" height="150"/>
    <div class="card-body bg-info">
     <h5 class="card-title fw-light mb-2 py-0">Lorem ipsum dolor sit amet. </h5>
       <p class="card-text h6 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed corrupti cumque ab libero ullam, nesciunt perferendis adipisci quas?</p>
@@ -163,9 +162,9 @@
 
 <!--3-->      
 
-<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex justify-content-center py-2">
  <div class="card mx-2" style="width: 18rem;">
-  <img src="assets/img/card3.jpg" class="card-img-top" alt="" height="150px"/>
+  <img src="assets/img/card3.jpg" class="card-img-top" alt="" height="150"/>
    <div class="card-body bg-info">
     <h5 class="card-title fw-light mb-2 py-0">Lorem ipsum dolor sit amet. </h5>
       <p class="card-text h6 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed corrupti cumque ab libero ullam, nesciunt perferendis adipisci quas?</p>
@@ -175,19 +174,21 @@
 
 <!--4-->
 
-<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex justify-content-center py-2">
   <div class="card mx-2" style="width: 18rem;">
-    <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosque" height="150px"/>
+    <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosque" height="150"/>
      <div class="card-body bg-info">
       <h5 class="card-title fw-light mb-2 py-0">Lorem ipsum dolor sit amet. </h5>
         <p class="card-text h6 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed corrupti cumque ab libero ullam, nesciunt perferendis adipisci quas?</p>
     </div>
+   </div>
   </div>
-  </div>
+</div>
  </section>
-</section>
 
-<section id="Third_section" class="container col-12 mx-auto">
+<!--Formulario-->
+
+<section id="contacto" class="container col-12 mx-auto">
   <h3 class="titulo-parrafos text-center pt-5 pb-4">CONTACTO</h3>
 <hr class="separador2 container-fluid">
 <form class="texto-formulario pb-5">
@@ -203,42 +204,47 @@
     <label for="exampleInputMensaje1" class="form-label">Mensaje</label>
     <input type="text" class="form-control" id="exampleInputMensaje1" style="height: 200px;">
   </div>
-  <button type="submit" class="btn btn-info text-white">Enviar</button>
+  <button type="submit" class="btn btn-info text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar</button>
 </form>
 </section>
 
-<footer class="container-fluid bg-info">
-  <nav class="navbar navbar-expand-lg">
-    <div class="container px-5">
-      <a class="navbar-brand" href="#">VIAJES CHILE</a>
-      <div class="collapse navbar-collapse d-flex justify-content-end redes-sociales" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#"><i class="fab fa-github-square"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-twitter-square"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><i class="fab fa-facebook-square"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<!--Footer-->
 
+<footer class="d-flex flex-wrap justify-content-center align-items-center py-3 border-top bg-info">
+  <div class="col-md-4 d-flex align-items-center">
+    <a href="/" class="mb-3 me-2 mb-md-0 texto-parrafos text-decoration-none lh-1">
+      <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+    <span class="texto-footer">VIAJES CHILE</span>
+  </div>
 
-
+  <ul class="nav col-md-4 list-unstyled d-flex justify-content-end">
+    <li class="ms-3" aria-current="page" href="#"><a data-bs-toggle="tooltip" title="GitHub" href="#"><i class="fab fa-github-square"></i> </a></li>
+    <li class="ms-3" aria-current="page" href="#"><a data-bs-toggle="tooltip" title="Linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+    <li class="ms-3" aria-current="page" href="#"><a data-bs-toggle="tooltip" title="Twitter" href="#"><i class="fab fa-twitter-square"></i></a></li>
+    <li class="ms-3" aria-current="page" href="#"><a data-bs-toggle="tooltip" title="Facebook" href="#"><i class="fab fa-facebook-square"></i></a></li>
+  </ul>
 </footer>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">¡Gracias por contactarnos!</h5>
+        
+        </button>
+      </div>
+      <div class="modal-body">
+        Tu mensaje ha sido enviado, le responderemos a la brevedad. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info text-white" data-bs-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
 
-    
-<!--destacados Cartas 4-->
-<!--Formulario Contacto-->
-<!--Footer viajes chile con links a redes-->
 
     <!--Link para habilitar el script JS de JQuery 3.6.0, completo y minificado-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"

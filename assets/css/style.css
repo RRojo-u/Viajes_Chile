@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 .titulo-parrafos{
     font-family: "Merryweather";
     color: white;
@@ -14,6 +19,13 @@
     color: white;
 }
 
+.texto-footer{
+    font-weight: 500;
+    color: white;
+    font-family: "Raleway";
+    font-size: larger;
+}
+
 .separador{
     color: gray;
     width: 80%;
@@ -23,18 +35,12 @@
 .separador2{
     color: gray;
     opacity: 70%;
-    
 }
 
 .banner{
     background-color: #0dc9ef;
     text-align: center;
     font-size: 25px;
-}
-
-#first_section{
-    background-color: black;
-
 }
 
 body{
@@ -61,5 +67,9 @@ body{
 .navbar-brand{
     font-family: "Merryweather";
     color: white;
+}
 
+.fab{
+    font-size: 30px;
+    color: white;
 }
